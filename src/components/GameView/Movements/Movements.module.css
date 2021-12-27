@@ -1,0 +1,41 @@
+.directions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.stages {
+  height: 35px;
+}
+
+.list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 270px;
+  margin-top: 10px;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 4px;
+  background-color: lightskyblue;
+  margin: 2px ;
+}
+
+.directions p {
+  margin: 0;
+}
+
+.action {
+  color: crimson
+}
+
+.await {
+  color: #ccc;
+}
